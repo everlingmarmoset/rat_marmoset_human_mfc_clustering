@@ -1,0 +1,67 @@
+# Metadata for DOI registration according to DataCite Metadata Schema 4.1.
+# For detailed schema description see https://doi.org/10.5438/0014
+
+## Required fields
+
+# The main researchers involved. Include digital identifier (e.g., ORCID)
+# if possible, including the prefix to indicate its type.
+authors:
+  -
+    firstname: "David"
+    lastname: "Schaeffer"
+    affiliation: "University of Western Ontario"
+    id: "ORCID:0000-0001-2345-6789"
+
+
+# A title to describe the published resource.
+title: "Divergence of rodent and primate medial frontal cortex functional connectivity"
+
+# Additional information about the resource, e.g., a brief abstract.
+description: |
+  Example description
+  that can contain linebreaks
+  but has to maintain indentation.
+
+# Lit of keywords the resource should be associated with.
+# Give as many keywords as possible, to make the resource findable.
+keywords:
+  - marmoset
+
+# License information for this resource. Please provide the license name and/or a link to the license.
+# Please add also a corresponding LICENSE file to the repository.
+license:
+  name: "Attribution 4.0 International (CC BY 4.0)"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+
+
+
+## Optional Fields
+
+# # Funding information for this resource.
+# # Separate funder name and grant number by comma.
+# funding:
+#   - "DFG, DFG.12345"
+#   - "EU, EU.12345"
+#
+#
+# # Related publications. reftype might be: IsSupplementTo, IsDescribedBy, IsReferencedBy.
+# # Please provide digital identifier (e.g., DOI) if possible.
+# # Add a prefix to the ID, separated by a colon, to indicate the source.
+# # Supported sources are: DOI, arXiv, PMID
+# references:
+#   -
+#     id: "doi:10.xxx/zzzz"
+#     reftype: "IsSupplementTo"
+#     name: "PublicationName1"
+#   -
+#     id: "arxiv:mmmm.nnnn"
+#     reftype: "IsSupplementTo"
+#     name: "PublicationName2"
+#   -
+#    id: "pmid:nnnnnnnn"
+#    reftype: "IsReferencedBy"
+#    name: "PublicationName3"
+
+
+# Resource type. Default is Dataset, other possible values are Software, DataPaper, Image, Text.
+resourcetype: Dataset
